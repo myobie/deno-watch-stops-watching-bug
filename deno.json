@@ -1,0 +1,17 @@
+{
+  "tasks": {
+    "start": "deno run --watch=./ start.ts",
+    "change-css": "echo '.a{}' >> css/test.css"
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"],
+      "exclude": ["no-extra-semi"]
+    }
+  },
+  "fmt": {
+    "files": {
+      "exclude": ["./"]
+    }
+  }
+}
